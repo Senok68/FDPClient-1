@@ -75,7 +75,7 @@ class KillAura : Module() {
     private val hurtTimeValue = IntegerValue("HurtTime", 10, 0, 10)
 
     // Range
-    private val rangeValue = FloatValue("Range", 3.7f, 1f, 8f)
+    private val rangeValue = FloatValue("Range", 3.6f, 1f, 8f)
     private val throughWallsRangeValue = FloatValue("ThroughWallsRange", 0f, 0f, 8f)
     private val rangeSprintReducementValue = FloatValue("RangeSprintReducement", 0f, 0f, 0.4f)
 
